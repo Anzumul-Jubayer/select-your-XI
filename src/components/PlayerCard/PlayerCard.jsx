@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const PlayerCard = ({player}) => {
+const PlayerCard = ({player,setavailableBalance,availableBalance}) => {
+  const [isSelected,setIsSelected]=useState(false)
+  const handleSelected=((player)=>{
+    const playerPrice=player.price
+    if(availableBalance<playerPrice){
+     return alert('Insufficient Balance')
+    }
+    setIsSelected(true)
+            setavailableBalance(availableBalance-playerPrice)
+  })
     return (
         <div className="card bg-base-100  shadow-sm">
         <figure className="p-5">
@@ -32,7 +41,7 @@ const PlayerCard = ({player}) => {
          <div className="flex justify-between items-center">
              <h2 className="font-bold">Price:$ {player.price}</h2>
          <div className="card-actions">
-           <button className="btn">Choose Player</button>
+           <button disabled={isSelected} onClick={()=>{handleSelected(player)}} className="btn">{isSelected===true?"Selected":"Choose Player"}</button>
           </div>
          </div>
           

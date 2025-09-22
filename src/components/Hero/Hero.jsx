@@ -2,7 +2,7 @@ import React from 'react';
 import navImg from "../../assets/logo.png";
 import dollarImg from "../../assets/dollar 1.png"
 import bannerImg from "../../assets/banner-main.png"
-const Hero = () => {
+const Hero = ({availableBalance}) => {
     return (
         <>
          {/* hero section */}
@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="pr-4 mt-5 lg:mt-0">
           <a className="ml-10" href="">Home</a> <a className="ml-10" href="">Fixture</a> <a className="ml-10" href="">Teams</a>
           <a className="ml-10" href="">Schedules</a>
-          <button  className="mt-5 lg:mt-0 ml-30 lg:ml-10 btn"><span>600000000000</span> <span>Coin</span> <img src={dollarImg} alt="" /> </button>
+          <button  className="mt-5 lg:mt-0 ml-30 lg:ml-10 btn">{availableBalance} <span>Coin</span> <img src={dollarImg} alt="" /> </button>
          </div>
       </div>
       {/* banner */}
