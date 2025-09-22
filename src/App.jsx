@@ -1,6 +1,8 @@
 import "./App.css";
 import AvailablePlayers from "./components/Available_Players/AvailablePlayers";
 import SelectedPlayers from "./components/Selected_Player/SelectedPlayers";
+import Subscribe from "./components/SubscribeFooter/Subscribe"
+import Footer from "./components/SubscribeFooter/Footr"
 import Hero from "./components/Hero/Hero";
 import { Suspense, useState } from "react";
 
@@ -27,7 +29,7 @@ function App() {
   return (
     <>
       <Hero availableBalance={availableBalance} ></Hero>
-      <div className="max-w-[1500px] mx-auto mt-20 flex justify-between items-center">
+      <div className="max-w-[1500px] mx-auto  mt-20 flex justify-between items-center">
         <h1 className="font-bold text-3xl">{toggle===true?"Available Player":`Selected Player(${purchasedPlayer.length}/6)`}</h1>
         <div>
           <button onClick={()=>setToggle(true)} className={`font-semibold cursor-pointer border-1 border-r-0 border-gray-300 py-1 px-5 rounded-l-lg ${toggle===true?"bg-[#e7fe29]":""}`}>
@@ -54,9 +56,13 @@ function App() {
           <SelectedPlayers removePlayer={removePlayer}  purchasedPlayer={purchasedPlayer} ></SelectedPlayers>
       
       )}
+      {/* SubsCribe */}
+      <Subscribe></Subscribe>
+      <Footer></Footer>
        <ToastContainer />
     </>
   );
 }
 
 export default App;
+

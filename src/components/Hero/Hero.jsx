@@ -2,6 +2,7 @@ import React from 'react';
 import navImg from "../../assets/logo.png";
 import dollarImg from "../../assets/dollar 1.png"
 import bannerImg from "../../assets/banner-main.png"
+import bannerbgImg from "../../assets/bannerbg.png"
 const Hero = ({availableBalance}) => {
     return (
         <>
@@ -19,7 +20,9 @@ const Hero = ({availableBalance}) => {
          </div>
       </div>
       {/* banner */}
-       <div className=" bg-linear-to-r from-cyan-200 to-blue-300 text-center py-30 rounded-[24px] mt-10">
+       <div className="text-center mx-2 px-3 lg:px-0 lg:mx-0 py-30 rounded-[24px] mt-10 bg-cover bg-center bg-no-repeat"
+       style={{ backgroundImage: `url(${bannerbgImg})` }}
+       >
         <div className="flex justify-center">
             <img  src={bannerImg} alt="" />
         </div>
