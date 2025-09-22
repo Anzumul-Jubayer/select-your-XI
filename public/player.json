@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/1fy4Rr5v/Shakib-Al-Hasan.jpg",
+    "name": "Shakib Al Hasan",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "nationality": "Bangladesh",
+    "rating": 9.5,
+    "price": 120000
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/jZqFF658/Tamim.jpg",
+    "name": "Tamim Iqbal",
+    "role": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "nationality": "Bangladesh",
+    "rating": 8.8,
+    "price": 100000
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/XZZSz9f6/Musi.jpg",
+    "name": "Mushfiqur Rahim",
+    "role": "Wicketkeeper-Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "nationality": "Bangladesh",
+    "rating": 9.0,
+    "price": 110000
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/WW5dQxXv/riyad.jpg",
+    "name": "Mahmudullah Riyad",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "nationality": "Bangladesh",
+    "rating": 8.6,
+    "price": 95000
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/Xfvxvp0G/Musta.webp",
+    "name": "Mustafizur Rahman",
+    "role": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "nationality": "Bangladesh",
+    "rating": 9.2,
+    "price": 105000
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/93YgZ7Cq/russel.webp",
+    "name": "Andre Russell",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "nationality": "West Indies",
+    "rating": 9.4,
+    "price": 150000
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/gFbrS6j6/gayle.jpg",
+    "name": "Chris Gayle",
+    "role": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "nationality": "West Indies",
+    "rating": 9.3,
+    "price": 140000
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/0pnngwXz/rashid.webp",
+    "name": "Rashid Khan",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Legbreak googly",
+    "nationality": "Afghanistan",
+    "rating": 9.7,
+    "price": 160000
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/VY6jJ2Rd/Sunil.jpg",
+    "name": "Sunil Narine",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "nationality": "West Indies",
+    "rating": 9.1,
+    "price": 130000
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/S42j1p4w/das.jpg",
+    "name": "Litton Das",
+    "role": "Wicketkeeper-Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "nationality": "Bangladesh",
+    "rating": 8.9,
+    "price": 98000
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/zhM1kYyc/Taskin.jpg",
+    "name": "Taskin Ahmed",
+    "role": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "nationality": "Bangladesh",
+    "rating": 8.7,
+    "price": 90000
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/YBxX48Z4/miraz.jpg",
+    "name": "Mahedi Hasan",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "nationality": "Bangladesh",
+    "rating": 8.4,
+    "price": 85000
+  }
+]
